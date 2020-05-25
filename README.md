@@ -13,4 +13,5 @@ Tools and technologies used : HTML5, CSS, Bootstrap, PHP, MySQL, Javascript, Aja
 Note :
 
 *The TextLocal API gives only 10 free credits per account created.(10 free SMS's)
+
 *The forgot password page accepts email from the user and then uses PHPMailer to send the password to the user Email Id but Google has identified it as a Less Secure Application. So if the user has to use it he/she has the change his/her google accounts security settings accordingly to try it. It has been tested and it is working perfectly fine. It also requires the owner email ID and password. So I have disabled it temporarily.
