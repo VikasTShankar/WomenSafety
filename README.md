@@ -9,6 +9,13 @@ Functionalities :
 5) A forgot password page which has been implemented using PHPMailer.*
 
 Tools and technologies used : HTML5, CSS, Bootstrap, PHP, MySQL, Javascript, Ajax, Textlocal API, PHPMailer.
+Installation and Requirements :
+1) Click on clone or download ZIP.
+2) Extract the ZIP folder.
+3) Download XAMPP server, PHP, phpMyAdmin.
+4) Move the extracted files to htdocs folder in the XAMPP folder.
+5) In the XAMPP control panel start the Apache and MySQL servers.
+6) Go to you web browser and type http://localhost/women_safety/index.php. Then start exploring.
 
 Note :
 
