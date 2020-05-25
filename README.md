@@ -9,6 +9,7 @@ Functionalities :
 5) A forgot password page which has been implemented using PHPMailer.*
 
 Tools and technologies used : HTML5, CSS, Bootstrap, PHP, MySQL, Javascript, Ajax, Textlocal API, PHPMailer.
+
 Installation and Requirements :
 1) Click on clone or download ZIP.
 2) Extract the ZIP folder.
