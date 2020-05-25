@@ -1,0 +1,242 @@
+header,footer{
+                background-color:#000000;
+                overflow:auto;
+               
+}
+
+.end{
+     padding: 10px;
+}
+/* homepage page styling */
+.first{
+                    background-color:#ffffff;
+                    width:1000px;
+                    padding:30px;
+                    margin:20px 100px;
+               }
+.first .head{
+     text-align: center;
+     padding: 10px;
+}
+nav ul{
+     list-style:none;
+}
+.container{
+     width:960px;
+     margin:0 auto;
+}
+.logo{
+     float:left;
+     padding-top: 0px;
+}
+nav ul li{
+     float:right;
+}
+ nav ul li a{
+     color:#3498db;
+     text-decoration:none;
+     padding:20px;
+     display:block;
+}
+nav ul li a:hover{
+	border-bottom:5px solid #3498db;
+	opacity:0.7;
+}
+
+.btn{
+     padding: 5px;
+     width: 100px;
+     height: 40px;
+     background-color: #3498db;
+     color: #fff;
+     border-radius: 3px;
+     border: 0;
+     font-size: 18px;
+     margin-left: 500px; 
+}
+
+/* end of homepage page styling */
+
+/* login/index page styling */
+body{
+     margin: 0;
+     padding: 0;
+
+}
+
+.wrap{
+     width: 410px;
+     overflow: hidden;
+     margin: auto;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     padding: 20px;
+     background: #fff;
+     border: 1px solid silver;
+     border-radius: 5px;
+}
+
+.wrap h2 {
+     text-align: center;
+     margin-bottom: 30px;
+}
+.wrap input{
+     width: 393px;
+     height: 35px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid silver;
+     padding: 5px;
+}
+
+.wrap .btn-login{
+     padding: 5px;
+     width: 403px;
+     height: 40px;
+     background-color: #3498db;
+     color: #fff;
+     border-radius: 3px;
+     border: 0;
+     font-size: 18px; 
+
+}
+
+/* end of login/index page styling */
+
+/* registeration page styling*/
+*{
+     margin: 0;
+     padding: 0;
+}
+
+h2{
+     text-align: center;
+     padding: 20px;
+}
+.register{
+     width: 410px;
+     overflow: hidden;
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 20px;
+     background: #fff;
+     border: 1px solid silver;
+     border-radius: 5px;
+}
+#register{
+     margin-left: 50px; 
+}
+label{
+     color: black;
+     font-size: 18px;
+}
+#fname,#lname,#email,#pass{
+     width: 300px;
+     height: 35px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid silver;
+     padding: 5px;
+}
+
+#mnum,#econ1,#econ2{
+     width: 300px;
+     height: 35px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid silver;
+     padding: 5px;
+}
+
+.register .btn-login{
+     padding: 5px;
+     width: 212px;
+     height: 40px;
+     background-color: #3498db;
+     color: #fff;
+     border-radius: 3px;
+     border: 0;
+     font-size: 18px; 
+
+}
+/* end of registeration page styling */
+
+/* cform stlying */
+.forum{
+     width: 410px;
+     overflow: hidden;
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 20px;
+     background: #fff;
+     border: 1px solid silver;
+     border-radius: 5px;
+
+}
+.forum .nam,.mes{
+     margin-left: 45px;
+}
+.forum .btn-login{
+     padding: 5px;
+     width: 310px;
+     height: 40px;
+     background-color: #3498db;
+     color: #fff;
+     border-radius: 3px;
+     border: 0;
+     font-size: 18px;
+     margin-left: 45px;
+}
+.forum input{
+     width: 300px;
+     height: 25px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid silver;
+     padding: 5px;
+     margin-left: 45px;
+}
+#mess{
+     width: 300px;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     border: 1px solid silver;
+     padding: 5px;
+     margin-left: 45px;
+}
+
+/* end of cform styling */
+
+/*responsive design
+@media (min-width:576px){.container{max-width:540px}}
+@media (min-width:768px){.container{max-width:720px}}
+@media (min-width:992px){.container{max-width:960px}}
+@media (min-width:1200px){.container{max-width:1140px}}
+/*responsive design*/
+@media only screen and (max-width:500px){
+     .container{
+          width: 95%;
+     }
+     nav ul li{
+          width: 100%;
+     }
+     /* you can group article and nav ul li class for reducing the line of code*/
+     .article{
+          width: 100%;
+     }
+     .logo {
+          float: none; /*this is written so that the logo doesnt float outside header */
+     }
+     header{
+          text-align: center;
+          overflow: hidden;
+     }
+     .box{
+          width: auto;
+          margin: 20px;
+     }
+
+}
+/*end of responsive design*/
