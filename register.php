@@ -56,7 +56,6 @@
                     </a>
                 </div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href='register.php'>Register</a></li>
                         <li><a href='index.php'>Login</a></li>
                     </ul>
                 </div>
